@@ -1,0 +1,35 @@
+.rodape {
+    font-family: 'Roboto';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    background-color: var(--primario);
+    border-top: 1px solid var(--preto);
+}
+
+.rodape-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.rodape-flex div:first-child {
+    padding-right: 20px;
+    border-right: 2px solid var(--cinza-escuro);
+}
+
+.rodape-flex div:last-child {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.rodape-flex a, .rodape-flex span {
+    font-size: 1.4rem;
+}

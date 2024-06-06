@@ -1,0 +1,43 @@
+#tecnologias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 500px;
+    padding: 90px 30px;
+
+    text-align: center;
+    
+    background-color: var(--secundario);
+}
+
+#tecnologias h3 {
+    font-size: 2rem;
+    color: var(--titulo);
+    font-family: 'Roboto';
+}
+
+#tecnologias h4 {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+}
+
+#tecnologias p {
+    font-family: "Merriweather"
+}
+
+.tecnologiaDia-flex, .tecnologiaTrab-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.2rem;
+
+    width: 30%;
+    margin: 0 auto;
+}
+
+.tecnologiaDia-flex i, .tecnologiaTrab-flex .icone {
+    font-size: 2.5rem;
+    color: var(--titulo);
+}

@@ -1,0 +1,76 @@
+.sobre {
+    padding: 90px 30px;
+    background-color: var(--cinza-claro);
+    height: 580px;
+}
+
+.sobre h3 {
+    font-size: 2rem;
+    color: var(--titulo);
+    font-family: 'Roboto';
+
+    margin-bottom: 20px;
+}
+
+.sobre-apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    height: 100%;
+}
+
+.sobre-apresentacao img {
+    height: 100%;
+    width: 700px;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+}
+
+.sobreMim {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    width: 40%;
+    height: 100%;
+
+    color: var(--cinza-escuro);
+    font-family: "Merriweather";
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.sobreExperiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+
+    font-family: 'Roboto';
+}
+
+.sobreExperiencia-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 30px;
+    gap: 5px;
+
+    border: 2px solid var(--titulo);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #498379a4;
+}
+
+.sobreExperiencia i {
+    font-size: 2.5rem;
+    color: var(--titulo)
+}
+
+.sobreExperiencia h4 {
+    font-size: 1.4rem;
+}

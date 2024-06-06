@@ -1,0 +1,71 @@
+.projeto {
+    padding: 90px 30px;
+    height: auto;
+}
+
+.projeto p {
+    font-family: "Merriweather"
+}
+
+.projeto h4,
+.projeto button {
+    font-family: 'Roboto';
+}
+
+.projeto h3 {
+    font-size: 2rem;
+    color: var(--titulo);
+    font-family: 'Roboto';
+
+    margin-bottom: 20px;
+}
+
+.projetos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projeto-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border: 2px solid var(--titulo);
+    border-radius: 30px;
+    width: 350px;
+    max-width: 300px;
+    height: 350px;
+    padding: 20px;
+}
+
+.tecnologias {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    font-family: 'Roboto';
+}
+
+.linguagem {
+    padding: 10px;
+
+    color: var(--cinza-claro);
+    background-color: var(--fundo);
+    border-radius: 30px;
+}
+
+.card-botao {
+    display: flex;
+    justify-content: end;
+}
+
+.card-botao button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card-botao button:last-child {
+    margin-left: 10px;
+}
