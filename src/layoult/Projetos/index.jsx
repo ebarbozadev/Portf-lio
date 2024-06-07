@@ -1,4 +1,14 @@
+import { useState } from "react";
+import Video from "../Video";
+
 export default function Projetos() {
+
+    const [aberto, setAberto] = useState(false);
+
+    function video() {
+        setAberto(!aberto);
+    }
+
     return (
         <section>
             <section id='projetos' className='projeto'>
@@ -18,8 +28,8 @@ export default function Projetos() {
                         </div>
 
                         <div className="card-botao">
-                            <button disabled={true}>Código</button>
-                            <button disabled={true}>Vídeo</button>
+                            <button onClick={() => alert('Entre em contato')}>Código</button>
+                            <button onClick={() => video()}>Vídeo</button>
                         </div>
                     </div>
 
@@ -38,6 +48,8 @@ export default function Projetos() {
                     <div className="projeto-card">
                         <h4>Em breve...</h4>
                     </div>
+
+                    <Video aberto={aberto} fechar={() => video()} link={'https://www.youtube.com/embed/B3vot3THdMQ?si=Ds-C3_0km_pJKQR5'} />
                 </div>
             </section>
         </section>
