@@ -27,4 +27,5 @@
 
 .video .botao button {
     padding: 3px 7px;
+    cursor: pointer;
 }
