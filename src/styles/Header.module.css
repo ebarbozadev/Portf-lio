@@ -67,10 +67,8 @@ header nav {
 
 header .titulo {
     min-width: 140px;
-    background-color: #fff;
 }
 
 header .navegacao {
-    background-color: #fff;
     min-width: 300px;
 }
