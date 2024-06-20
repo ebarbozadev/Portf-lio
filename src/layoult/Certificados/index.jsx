@@ -2,6 +2,12 @@ export default function Certificados() {
 
     const cursos = [
         {
+            "id": 0,
+            "nomeCurso": "Node.js: Criptografia e Tokens JWT",
+            "data": "25/05/2024 a 19/06/2024",
+            "horasTotais": ' - 10 horas '
+        },
+        {
             "id": 1,
             "nomeCurso": "React comece seu projeto full stack",
             "data": "27/12/2023 a 08/03/2024",
